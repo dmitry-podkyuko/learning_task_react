@@ -11,7 +11,7 @@ const App = () => {
     return () => {
       console.log(counter);
     };
-  });
+  }, [counter]);
 
   return (
     <div>

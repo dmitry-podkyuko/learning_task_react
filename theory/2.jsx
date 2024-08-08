@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 const App = () => {
-  const [counter] = useState(0);
+  const [counter, setCounter] = useState(0);
 
   useEffect(() => {
     console.log(counter);
@@ -16,7 +16,13 @@ const App = () => {
   return (
     <div>
       <div>{counter}</div>
-      <button>+++</button>
+      <button
+        onChange={() => {
+          setCounter(counter++);
+        }}
+      >
+        +++
+      </button>
     </div>
   );
 };

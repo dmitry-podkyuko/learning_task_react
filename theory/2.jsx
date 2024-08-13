@@ -17,8 +17,8 @@ const App = () => {
     <div>
       <div>{counter}</div>
       <button
-        onChange={() => {
-          setCounter(counter++);
+        onClick={() => {
+          setCounter(counter + 1);
         }}
       >
         +++

@@ -17,6 +17,10 @@ const Child = ({ data }) => {
 
   useLayoutEffect(() => {
     console.log('4');
+
+    return () => {
+      console.log(12);
+    };
   });
 
   return <div>{data}</div>;

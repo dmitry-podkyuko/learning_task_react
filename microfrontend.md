@@ -15,8 +15,7 @@ width="500" height="300">
 
 ## Как это работает?
 
-<img src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/1f2/c1b/
-037/1f2c1b03768e93c73bde58c22eb26b20.png" alt="Картинка о микрофронтах" 
+<img src="./img/1f2c1b03768e93c73bde58c22eb26b20.png" alt="Картинка о микрофронтах" 
 width="500" height="300">
 
 Есть HOST-приложение, которое доступно пользователю, и есть REMOTE-приложение, которое встраивается в HOST.
